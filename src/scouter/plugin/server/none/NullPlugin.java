@@ -8,7 +8,7 @@ import scouter.lang.plugin.annotation.ServerPlugin;
  * @author Gun Lee (gunlee01@gmail.com) on 2016. 3. 19.
  */
 public class NullPlugin {
-    private boolean debug = System.getProperty("scouter.plugin.server.debug", "f").equals("true") ? true : false;
+    private boolean debug = System.getProperty("scouter.plugin.server.null.debug", "f").equals("true") ? true : false;
 
     @ServerPlugin(PluginConstants.PLUGIN_SERVER_ALERT)
     public void alert(AlertPack pack){
