@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Test Build Null plugin for server" default="packaging">
+    <property name="dir.target.jar" value="../scouter/scouter.server.boot/testlib" />
+    <property name="dir.classes" value="./bin" />
+
+    <target name="packaging">
+        <jar destfile="${dir.target.jar}/scouter-plugin-server-null.jar">
+            <fileset dir="${dir.classes}"/>
+        </jar>
+    </target>
+
+</project>
