@@ -5,4 +5,6 @@
 
 ### dependency
 - scouter.common
+- scouter.server
+
 
